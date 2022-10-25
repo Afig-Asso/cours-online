@@ -57,6 +57,15 @@ _Pour ajouter/modifier des informations:_
      * Enseignant: Guillaume Gilet
 <br>
 
+* **[Computer Animation](https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html)** 
+
+  * Thème: Animation, Simulation 
+  * _Animation 3D interactive et simulation physique temps réelle._ 
+     * Master 1/2, Ecole Polytechnique, IP Paris 
+     * Format: Cours, TP, 38h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
+     * Enseignant: Damien Rohmer
+<br>
+
 * **[Reconstruction de formes](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
 
   * Thème: Modélisation 
@@ -105,14 +114,5 @@ _Pour ajouter/modifier des informations:_
      * Master 2, Université de lyon 
      * Format: Cours, TP - C++ ([Qt](https://doc.qt.io/qt-6/qtopengl-index.html)) 
      * Enseignant: Eric Galin
-<br>
-
-* **[Computer Animation](https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html)** 
-
-  * Thème: Animation, Simulation 
-  * _Animation 3D interactive et simulation physique temps réelle._ 
-     * Master, Ecole Polytechnique, IP Paris 
-     * Format: Cours, TP, 38h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
-     * Enseignant: Damien Rohmer
 <br>
 

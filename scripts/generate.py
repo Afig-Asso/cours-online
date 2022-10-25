@@ -73,7 +73,7 @@ def prettyMD(data):
     
     tools = data['Tools']
 
-    classes = sorted(data['Classes'], key = lambda x: str(x['Level']+x['Title']).replace(' ',''), reverse=True)
+    classes = sorted(data['Classes'], key = lambda x: str(x['Level']+x['University']).replace(' ',''), reverse=False)
     for classData in classes:
         try:
             out += prettyMD_class(classData, tools)

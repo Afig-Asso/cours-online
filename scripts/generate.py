@@ -6,7 +6,7 @@ import json
 root_path = os.path.join(os.path.dirname(__file__))
 
 filename_yaml = root_path+'/../data.yaml'
-filename_json_out = root_path+'/../data.json'
+filename_json_out = root_path+'/../json/data.json'
 filename_md_out = root_path+'/../README.md'
 
 

@@ -7,7 +7,7 @@ root_path = os.path.join(os.path.dirname(__file__))
 
 filename_yaml = root_path+'/../data.yaml'
 filename_json_out = root_path+'/../data.json'
-filename_md_out = root_path+'/../index.md'
+filename_md_out = root_path+'/../README.md'
 
 
 def yaml_read_file(pathname):

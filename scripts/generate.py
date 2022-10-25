@@ -76,8 +76,8 @@ def prettyMD(data):
     out += '\n\n'
 
     out += 'Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).\n'
-    out += '  - 1) Modifiez la base de données: fichier **data.yaml**\n'
-    out += '  - 2) Générez les fichiers\n'
+    out += '  1. Modifiez la base de données: fichier **data.yaml**\n'
+    out += '  2. Générez les fichiers\n'
     out += '  > python scripts/generate.py \n'
 
 

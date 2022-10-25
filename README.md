@@ -7,8 +7,8 @@ Pour ajouter/modifier des informations:
 
 
 Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
-  - 1) Modifiez la base de données: fichier **data.yaml**
-  - 2) Générez les fichiers
+  1. Modifiez la base de données: fichier **data.yaml**
+  2. Générez les fichiers
   > python scripts/generate.py 
 ## Listing des ressources
 

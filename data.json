@@ -1,0 +1,177 @@
+{
+    "Tools": {
+        "Three.js": {
+            "url": "https://threejs.org/"
+        },
+        "Unity": {
+            "url": "https://unity.com/"
+        },
+        "Unreal": {
+            "url": "https://www.unrealengine.com/"
+        },
+        "ShaderToy": {
+            "url": "https://www.shadertoy.com/"
+        },
+        "LibIGL": {
+            "url": "https://libigl.github.io/"
+        },
+        "CGAL": {
+            "url": "https://www.cgal.org/"
+        },
+        "GL4Dummies": {
+            "url": "https://gl4d.api8.fr/FR/"
+        },
+        "CGP": {
+            "url": "https://imagecomputing.net/cgp/index.html"
+        },
+        "Processing": {
+            "url": "https://processing.org/"
+        },
+        "Qt": {
+            "url": "https://doc.qt.io/qt-6/qtopengl-index.html"
+        }
+    },
+    "Classes": [
+        {
+            "Title": "Computer Animation",
+            "Description": "Animation 3D interactive et simulation physique temps r\u00e9elle.",
+            "url": "https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html",
+            "Teacher": "Damien Rohmer",
+            "Level": "Master",
+            "University": "Ecole Polytechnique, IP Paris",
+            "Duration": "38h",
+            "Type": "Cours, TP",
+            "Language": "C++",
+            "Tool": "CGP",
+            "Topic": "Animation, Simulation"
+        },
+        {
+            "Title": "Graphique 3D",
+            "Description": "Introduction \u00e0 l'informatique graphique (Mod\u00e9lisation, Animation)",
+            "url": "https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html",
+            "Teacher": "Damien Rohmer",
+            "Level": "Licence 3",
+            "University": "Ecole Polytechnique",
+            "Duration": "20h",
+            "Type": "TP",
+            "Language": "C++",
+            "Tool": "CGP",
+            "Topic": "Mod\u00e9lisation, Animation"
+        },
+        {
+            "Title": "Algorithmes pour la programmation graphique",
+            "Description": "Algorithmes associ\u00e9s \u00e0 la synth\u00e8se d'images",
+            "Topic": "Synth\u00e8se d'images",
+            "url": "https://expreg.org/amsi/C/APG2223S1/",
+            "Teacher": "Far\u00e8s Belhadj",
+            "Level": "Licence 2",
+            "University": "Paris 8",
+            "Type": "Cours",
+            "Tool": "GL4Dummies"
+        },
+        {
+            "Title": "Informatique Graphique",
+            "Topic": "Synth\u00e8se d'images",
+            "url": "https://www.unilim.fr/pages_perso/guillaume.gilet/#Licence3",
+            "Teacher": "Guillaume Gilet",
+            "Level": "Licence 3",
+            "University": "Universit\u00e9 de Limoges",
+            "Type": "Cours, TP",
+            "Language": "JavaScript",
+            "Tool": "Three.js"
+        },
+        {
+            "Title": "Notions de base pour la mod\u00e9lisation g\u00e9om\u00e9trique d'objets tridimensionnels",
+            "Topic": "Mod\u00e9lisation",
+            "url": "https://www.irit.fr/~Loic.Barthe/teaching.php#Modelisation",
+            "Teacher": "Loic Barthe",
+            "Level": "Licence 2",
+            "University": "Universit\u00e9 de Toulouse",
+            "Type": "Cours"
+        },
+        {
+            "Title": "Reconstruction de formes",
+            "Topic": "Mod\u00e9lisation",
+            "Description": "Reconstructions de surfaces 3D",
+            "url": "https://perso.liris.cnrs.fr/julie.digne/teaching.html",
+            "Teacher": "Julie Digne",
+            "Level": "Master 2",
+            "University": "CPE Lyon",
+            "Type": "Cours, TP",
+            "Language": "Matlab",
+            "Tool": "Cloud Compare, Meshlab"
+        },
+        {
+            "Title": "Machine Learning for Image Processing and Synthesis",
+            "Topic": "Analyse de forme",
+            "url": "https://perso.liris.cnrs.fr/julie.digne/teaching.html",
+            "Teacher": "Julie Digne",
+            "Level": "Master 2",
+            "University": "ID3D Universit\u00e9 de Lyon",
+            "Type": "Cours, TP",
+            "Language": "Python, Matlab"
+        },
+        {
+            "Title": "M\u00e9thodes statistiques pour le Traitement d'Images",
+            "Topic": "Images et Textures",
+            "url": "https://perso.liris.cnrs.fr/julie.digne/teaching.html",
+            "Teacher": "Julie Digne",
+            "Level": "Master 2",
+            "University": "ID3D Universit\u00e9 de Lyon",
+            "Type": "Cours"
+        },
+        {
+            "Title": "Computer Graphics",
+            "Topic": "Synth\u00e8se d'images",
+            "url": "https://perso.liris.cnrs.fr/nbonneel/poly.pdf",
+            "Teacher": "Nicolas Bonneel",
+            "Level": "Licence 3",
+            "University": "Ecole Polytechnique (Bachelor)",
+            "Type": "Cours"
+        },
+        {
+            "Title": "Mass Transportation Principles for Computer Graphics and Machine Learning",
+            "Topic": "Geometrie",
+            "url": "https://perso.liris.cnrs.fr/nbonneel/Lyon1_Transport.pdf",
+            "Teacher": "Nicolas Bonneel",
+            "Level": "Master 2",
+            "University": "ID3D Universit\u00e9 de Lyon",
+            "Type": "Cours"
+        },
+        {
+            "Title": "Mathematical methods for image synthesis",
+            "Topic": "Synth\u00e8se d'images, Analyse de forme",
+            "url": "https://perso.liris.cnrs.fr/nicolas.bonneel/ENS.html",
+            "Teacher": "Nicolas Bonneel, Julie Digne, David Coeurjolly",
+            "Level": "Master 2",
+            "University": "ENS Lyon",
+            "Type": "Cours, TP",
+            "Language": "C++",
+            "Tool": "CGAL"
+        },
+        {
+            "Title": "Informatique Graphique",
+            "Description": "Bases de la r\u00e9alisation de mod\u00e8les et de sc\u00e8nes graphiques interactives en trois dimensions",
+            "Topic": "Synth\u00e8se d'images, Mod\u00e9lisation",
+            "url": "https://perso.liris.cnrs.fr/eric.galin/L2",
+            "Teacher": "Eric Galin",
+            "Level": "Licence 2",
+            "University": "Universit\u00e9 de lyon",
+            "Type": "Cours, TP",
+            "Language": "GLSL",
+            "Tool": "ShaderToy"
+        },
+        {
+            "Title": "Mod\u00e9lisation avanc\u00e9e",
+            "Description": "M\u00e9thodes de g\u00e9n\u00e9ration num\u00e9rique de contenu pour la production de sc\u00e8nes virtuelles utilis\u00e9es dans le contexte d'applications temps r\u00e9el.",
+            "Topic": "Mod\u00e9lisation",
+            "url": "https://perso.liris.cnrs.fr/eric.galin/M2/",
+            "Teacher": "Eric Galin",
+            "Level": "Master 2",
+            "University": "Universit\u00e9 de lyon",
+            "Type": "Cours, TP",
+            "Language": "C++",
+            "Tool": "Qt"
+        }
+    ]
+}

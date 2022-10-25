@@ -67,8 +67,7 @@ def prettyMD(data):
 
     out = '# Ressources de cours disponibles en ligne en Informatique Graphique \n'
   
-    out += '## Compléter la base \n'
-    out += 'Pour ajouter/modifier des informations:\n'
+    out += '## Compléter/Modifier les informations \n'
     out += '  - Option 1 (_modif externe_): Clonez le projet, modifiez le fichier data.yaml avec vos informations, envoyez un pull-request sur github.\n'
     out += '  - Option 2 (_modif direct sur le dépot_): Envoyez un email à enseignement[at]asso-afig.fr et demandez à être ajouté aux contributeurs sur github.\n' 
     out += '  - Option 3 (_simple email_): Envoyez un email à enseignement[at]asso-afig.fr avec vos informations\n' 

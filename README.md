@@ -1,6 +1,5 @@
 # Ressources de cours disponibles en ligne en Informatique Graphique 
-## Compléter la base 
-Pour ajouter/modifier des informations:
+## Compléter/Modifier les informations 
   - Option 1 (_modif externe_): Clonez le projet, modifiez le fichier data.yaml avec vos informations, envoyez un pull-request sur github.
   - Option 2 (_modif direct sur le dépot_): Envoyez un email à enseignement[at]asso-afig.fr et demandez à être ajouté aux contributeurs sur github.
   - Option 3 (_simple email_): Envoyez un email à enseignement[at]asso-afig.fr avec vos informations

@@ -3,7 +3,9 @@ _Pour ajouter/modifier des informations:_
   - _Réalisez la modification dans le fichier data.yaml_
  - _Mettez à jour le contenu: python script/generate.py_
 <br>
+
 ## Formations en IG disponibles en ligne
+
 * **[Reconstruction de formes](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
   Thème: Modélisation 
   _Reconstructions de surfaces 3D_ 

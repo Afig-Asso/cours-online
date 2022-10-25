@@ -67,9 +67,9 @@ def prettyMD(data):
     out = 'Cette page est générée automatiquement\n'
     out += '_Pour ajouter/modifier des informations:_\n'
     out += '  - _Réalisez la modification dans le fichier data.yaml_\n' 
-    out += ' - _Mettez à jour le contenu: python script/generate.py_\n<br>\n' 
+    out += ' - _Mettez à jour le contenu: python script/generate.py_\n<br>\n\n' 
 
-    out += '## Formations en IG disponibles en ligne\n' 
+    out += '## Formations en IG disponibles en ligne\n\n' 
     
     tools = data['Tools']
 

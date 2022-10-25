@@ -52,7 +52,7 @@ def prettyMD_class(data, tools_data):
         tool_opt = f' ({tool_opt})'
     
 
-    out += f'* **[{title}]({url})** \n'
+    out += f'* **[{title}]({url})** \n\n'
     out += f'  Thème: {topic} \n'
     if description_opt!='':
         out += f'  _{description_opt}_ \n'
@@ -60,7 +60,7 @@ def prettyMD_class(data, tools_data):
     out += f'    * Format: {type}{duration_opt}{language_opt}{tool_opt} \n'
     out += f'    * Enseignant: {teacher}\n'
     
-    out += '<br>\n'
+    out += '<br>\n\n'
     return out
 
 def prettyMD(data):

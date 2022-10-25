@@ -64,12 +64,24 @@ def prettyMD_class(data, tools_data):
     return out
 
 def prettyMD(data):
-    out = 'Cette page est générée automatiquement\n'
-    out += '_Pour ajouter/modifier des informations:_\n'
-    out += '  - _Réalisez la modification dans le fichier data.yaml_\n' 
-    out += ' - _Mettez à jour le contenu: python script/generate.py_\n<br>\n\n' 
 
-    out += '## Formations en IG disponibles en ligne\n\n' 
+    out = '# Ressources de cours disponibles en ligne en Informatique Graphique \n'
+  
+    out += '## Compléter la base \n'
+    out += 'Pour ajouter/modifier des informations:\n'
+    out += '  - Option 1 (_modif externe_): Clonez le projet, modifiez le fichier data.yaml avec vos informations, envoyez un pull-request sur github.\n'
+    out += '  - Option 2 (_modif direct sur le dépot_): Envoyez un email à enseignement[at]asso-afig.fr et demandez à être ajouté aux contributeurs sur github.\n' 
+    out += '  - Option 3 (_simple email_): Envoyez un email à enseignement[at]asso-afig.fr avec vos informations\n' 
+    
+    out += '\n\n'
+
+    out += 'Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).\n'
+    out += '  - 1) Modifiez la base de données: fichier **data.yaml**\n'
+    out += '  - 2) Générez les fichiers\n'
+    out += '  > python scripts/generate.py \n'
+
+
+    out += '## Listing des ressources\n\n' 
     
     tools = data['Tools']
 

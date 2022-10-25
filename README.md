@@ -1,10 +1,16 @@
-Cette page est générée automatiquement
-_Pour ajouter/modifier des informations:_
-  - _Réalisez la modification dans le fichier data.yaml_
- - _Mettez à jour le contenu: python script/generate.py_
-<br>
+# Ressources de cours disponibles en ligne en Informatique Graphique 
+## Compléter la base 
+Pour ajouter/modifier des informations:
+  - Option 1 (_modif externe_): Clonez le projet, modifiez le fichier data.yaml avec vos informations, envoyez un pull-request sur github.
+  - Option 2 (_modif direct sur le dépot_): Envoyez un email à enseignement[at]asso-afig.fr et demandez à être ajouté aux contributeurs sur github.
+  - Option 3 (_simple email_): Envoyez un email à enseignement[at]asso-afig.fr avec vos informations
 
-## Formations en IG disponibles en ligne
+
+Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
+  - 1) Modifiez la base de données: fichier **data.yaml**
+  - 2) Générez les fichiers
+  > python scripts/generate.py 
+## Listing des ressources
 
 * **[Algorithmes pour la programmation graphique](https://expreg.org/amsi/C/APG2223S1/)** 
 

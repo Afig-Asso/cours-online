@@ -55,7 +55,7 @@ def prettyMD_class(data, tools_data):
     out += f'* **[{title}]({url})** \n\n'
     out += f'  * Thème: {topic} \n'
     if description_opt!='':
-        out += f'  *  _{description_opt}_ \n'
+        out += f'  * _{description_opt}_ \n'
     out += f'     * {level}, {university} \n'
     out += f'     * Format: {type}{duration_opt}{language_opt}{tool_opt} \n'
     out += f'     * Enseignant: {teacher}\n'
@@ -73,7 +73,7 @@ def prettyMD(data):
     
     tools = data['Tools']
 
-    classes = sorted(data['Classes'], key = lambda x: x['Level'], reverse=True)
+    classes = sorted(data['Classes'], key = lambda x: str(x['Level']+x['University']).replace(' ',''), reverse=True)
     for classData in classes:
         try:
             out += prettyMD_class(classData, tools)

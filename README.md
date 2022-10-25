@@ -6,13 +6,22 @@ _Pour ajouter/modifier des informations:_
 
 ## Formations en IG disponibles en ligne
 
-* **[Reconstruction de formes](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
+* **[Computer Animation](https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html)** 
+
+  * Thème: Animation, Simulation 
+  * _Animation 3D interactive et simulation physique temps réelle._ 
+     * Master, Ecole Polytechnique, IP Paris 
+     * Format: Cours, TP, 38h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
+     * Enseignant: Damien Rohmer
+<br>
+
+* **[Modélisation avancée](https://perso.liris.cnrs.fr/eric.galin/M2/)** 
 
   * Thème: Modélisation 
-  *  _Reconstructions de surfaces 3D_ 
-     * Master 2, CPE Lyon 
-     * Format: Cours, TP - Matlab (Cloud Compare, Meshlab) 
-     * Enseignant: Julie Digne
+  * _Méthodes de génération numérique de contenu pour la production de scènes virtuelles utilisées dans le contexte d'applications temps réel._ 
+     * Master 2, Université de lyon 
+     * Format: Cours, TP - C++ ([Qt](https://doc.qt.io/qt-6/qtopengl-index.html)) 
+     * Enseignant: Eric Galin
 <br>
 
 * **[Machine Learning for Image Processing and Synthesis](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
@@ -47,31 +56,13 @@ _Pour ajouter/modifier des informations:_
      * Enseignant: Nicolas Bonneel, Julie Digne, David Coeurjolly
 <br>
 
-* **[Modélisation avancée](https://perso.liris.cnrs.fr/eric.galin/M2/)** 
+* **[Reconstruction de formes](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
 
   * Thème: Modélisation 
-  *  _Méthodes de génération numérique de contenu pour la production de scènes virtuelles utilisées dans le contexte d'applications temps réel._ 
-     * Master 2, Université de lyon 
-     * Format: Cours, TP - C++ ([Qt](https://doc.qt.io/qt-6/qtopengl-index.html)) 
-     * Enseignant: Eric Galin
-<br>
-
-* **[Computer Animation](https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html)** 
-
-  * Thème: Animation, Simulation 
-  *  _Animation 3D interactive et simulation physique temps réelle._ 
-     * Master, Ecole Polytechnique, IP Paris 
-     * Format: Cours, TP, 38h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
-     * Enseignant: Damien Rohmer
-<br>
-
-* **[Graphique 3D](https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html)** 
-
-  * Thème: Modélisation, Animation 
-  *  _Introduction à l'informatique graphique (Modélisation, Animation)_ 
-     * Licence 3, Ecole Polytechnique 
-     * Format: TP, 20h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
-     * Enseignant: Damien Rohmer
+  * _Reconstructions de surfaces 3D_ 
+     * Master 2, CPE Lyon 
+     * Format: Cours, TP - Matlab (Cloud Compare, Meshlab) 
+     * Enseignant: Julie Digne
 <br>
 
 * **[Informatique Graphique](https://www.unilim.fr/pages_perso/guillaume.gilet/#Licence3)** 
@@ -90,13 +81,22 @@ _Pour ajouter/modifier des informations:_
      * Enseignant: Nicolas Bonneel
 <br>
 
-* **[Algorithmes pour la programmation graphique](https://expreg.org/amsi/C/APG2223S1/)** 
+* **[Graphique 3D](https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html)** 
 
-  * Thème: Synthèse d'images 
-  *  _Algorithmes associés à la synthèse d'images_ 
-     * Licence 2, Paris 8 
-     * Format: Cours ([GL4Dummies](https://gl4d.api8.fr/FR/)) 
-     * Enseignant: Farès Belhadj
+  * Thème: Modélisation, Animation 
+  * _Introduction à l'informatique graphique (Modélisation, Animation)_ 
+     * Licence 3, Ecole Polytechnique 
+     * Format: TP, 20h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
+     * Enseignant: Damien Rohmer
+<br>
+
+* **[Informatique Graphique](https://perso.liris.cnrs.fr/eric.galin/L2)** 
+
+  * Thème: Synthèse d'images, Modélisation 
+  * _Bases de la réalisation de modèles et de scènes graphiques interactives en trois dimensions_ 
+     * Licence 2, Université de lyon 
+     * Format: Cours, TP - GLSL ([ShaderToy](https://www.shadertoy.com/)) 
+     * Enseignant: Eric Galin
 <br>
 
 * **[Notions de base pour la modélisation géométrique d'objets tridimensionnels](https://www.irit.fr/~Loic.Barthe/teaching.php#Modelisation)** 
@@ -107,12 +107,12 @@ _Pour ajouter/modifier des informations:_
      * Enseignant: Loic Barthe
 <br>
 
-* **[Informatique Graphique](https://perso.liris.cnrs.fr/eric.galin/L2)** 
+* **[Algorithmes pour la programmation graphique](https://expreg.org/amsi/C/APG2223S1/)** 
 
-  * Thème: Synthèse d'images, Modélisation 
-  *  _Bases de la réalisation de modèles et de scènes graphiques interactives en trois dimensions_ 
-     * Licence 2, Université de lyon 
-     * Format: Cours, TP - GLSL ([ShaderToy](https://www.shadertoy.com/)) 
-     * Enseignant: Eric Galin
+  * Thème: Synthèse d'images 
+  * _Algorithmes associés à la synthèse d'images_ 
+     * Licence 2, Paris 8 
+     * Format: Cours ([GL4Dummies](https://gl4d.api8.fr/FR/)) 
+     * Enseignant: Farès Belhadj
 <br>
 

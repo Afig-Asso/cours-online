@@ -1,13 +1,18 @@
 import os, sys
 import yaml
 import json
+import urllib.request, urllib.error
+import argparse
+import tqdm
 
 
+meta = {
+    'filename_yaml': 'data.yaml',
+    'filename_json_out': 'json/data.json',
+    'filename_md_out': 'README.md'
+}
 root_path = os.path.join(os.path.dirname(__file__))
 
-filename_yaml = root_path+'/../data.yaml'
-filename_json_out = root_path+'/../json/data.json'
-filename_md_out = root_path+'/../README.md'
 
 
 def yaml_read_file(pathname):
@@ -22,12 +27,29 @@ def get_optional(key, data):
     else:
         return ''
 
-def prettyMD_class(data, tools_data):
+def checkurl(url):
+    try:
+        url_open = urllib.request.urlopen(url)
+    except urllib.error.HTTPError as e:
+        print(f'Warning: URL seems down {url}')
+        print('Error code: ', e.code)
+        return False
+    except urllib.error.URLError as e:
+        print(f'Warning: URL seems wrong: {url}')
+        print('Reason: ', e.reason)
+        return False
+    else:
+        return True
+
+
+def prettyMD_class(data, tools_data, is_check_url):
     out = ''
     
 
     title = data['Title']
     url = data['url']
+    if is_check_url:
+        checkurl(url)
     university = data['University']
     level = data['Level']
     teacher = data['Teacher']
@@ -63,7 +85,7 @@ def prettyMD_class(data, tools_data):
     out += '<br>\n\n'
     return out
 
-def prettyMD(data):
+def prettyMD(data, is_check_url):
 
     out = '# Ressources de cours disponibles en ligne en Informatique Graphique \n'
   
@@ -84,9 +106,10 @@ def prettyMD(data):
     tools = data['Tools']
 
     classes = sorted(data['Classes'], key = lambda x: str(x['Level']+x['University']).replace(' ',''), reverse=False)
-    for classData in classes:
+    for k in tqdm.tqdm(range(len(classes))):
+        classData = classes[k]
         try:
-            out += prettyMD_class(classData, tools)
+            out += prettyMD_class(classData, tools, is_check_url)
         except KeyError as keyError:
             print('Key '+str(keyError)+' cannot be found in entry \n', classData,'\n\n')
         except:
@@ -97,7 +120,19 @@ def prettyMD(data):
 
 
 
+
 if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description='Generate Listing')
+    parser.add_argument('-c','--checkURL', help='Check url validity', action='store_true')
+    args = parser.parse_args()  
+
+    is_check_url = args.checkURL
+
+    filename_yaml = root_path+'/../'+meta['filename_yaml']
+    filename_json_out = root_path+'/../'+meta['filename_json_out']
+    filename_md_out = root_path+'/../'+meta['filename_md_out']
+
 
     data = yaml_read_file(filename_yaml)
 
@@ -107,5 +142,5 @@ if __name__ == "__main__":
 
     # export pretty md
     with open(filename_md_out, 'w') as md_fid:
-        mdTXT = prettyMD(data)
+        mdTXT = prettyMD(data, is_check_url)
         md_fid.write(mdTXT)

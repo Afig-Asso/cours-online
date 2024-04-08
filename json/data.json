@@ -35,7 +35,7 @@
         {
             "Title": "Computer Animation",
             "Description": "Animation 3D interactive et simulation physique temps r\u00e9elle.",
-            "url": "https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html",
+            "url": "https://imagecomputing.net/course/2023_2024/inf585/",
             "Teacher": "Damien Rohmer",
             "Level": "Master 1/2",
             "University": "Ecole Polytechnique, IP Paris",
@@ -48,7 +48,7 @@
         {
             "Title": "Graphique 3D",
             "Description": "Introduction \u00e0 l'informatique graphique (Mod\u00e9lisation, Animation)",
-            "url": "https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html",
+            "url": "https://imagecomputing.net/course/2023_2024/inf443/lab",
             "Teacher": "Damien Rohmer",
             "Level": "Licence 3",
             "University": "Ecole Polytechnique",

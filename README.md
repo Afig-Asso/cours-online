@@ -36,7 +36,7 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Enseignant: Eric Galin
 <br>
 
-* **[Graphique 3D](https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html)** 
+* **[Graphique 3D](https://imagecomputing.net/course/2023_2024/inf443/lab)** 
 
   * Thème: Modélisation, Animation 
   * _Introduction à l'informatique graphique (Modélisation, Animation)_ 
@@ -61,7 +61,7 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Enseignant: Guillaume Gilet
 <br>
 
-* **[Computer Animation](https://imagecomputing.net/damien.rohmer/teaching/inf585/index.html)** 
+* **[Computer Animation](https://imagecomputing.net/course/2023_2024/inf585/)** 
 
   * Thème: Animation, Simulation 
   * _Animation 3D interactive et simulation physique temps réelle._ 

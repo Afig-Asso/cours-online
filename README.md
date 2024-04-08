@@ -36,20 +36,7 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Enseignant: Loic Barthe
 <br>
 
-<<<<<<< HEAD
-* **[Informatique Graphique](https://perso.liris.cnrs.fr/eric.galin/L2)** 
-
-  * Thème: Synthèse d'images, Modélisation 
-  * _Bases de la réalisation de modèles et de scènes graphiques interactives en trois dimensions_ 
-     * Licence 2, Université de lyon 
-     * Format: Cours, TP - GLSL ([ShaderToy](https://www.shadertoy.com/)) 
-     * Enseignant: Eric Galin
-<br>
-
 * **[Graphique 3D](https://imagecomputing.net/course/2023_2024/inf443/lab)** 
-=======
-* **[Graphique 3D](https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html)** 
->>>>>>> 215b4cd728aa321083b90d46f80194bc1cf51406
 
   * Thème: Modélisation, Animation 
   * _Introduction à l'informatique graphique (Modélisation, Animation)_ 

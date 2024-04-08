@@ -19,6 +19,15 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Enseignant: Farès Belhadj
 <br>
 
+* **[Informatique Graphique](https://perso.liris.cnrs.fr/eric.galin/L2)** 
+
+  * Thème: Synthèse d'images, Modélisation 
+  * _Bases de la réalisation de modèles et de scènes graphiques interactives en trois dimensions_ 
+     * Licence 2, Université de Lyon 
+     * Format: Cours, TP - GLSL ([ShaderToy](https://www.shadertoy.com/)) 
+     * Enseignant: Eric Galin
+<br>
+
 * **[Notions de base pour la modélisation géométrique d'objets tridimensionnels](https://www.irit.fr/~Loic.Barthe/teaching.php#Modelisation)** 
 
   * Thème: Modélisation 
@@ -27,6 +36,7 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Enseignant: Loic Barthe
 <br>
 
+<<<<<<< HEAD
 * **[Informatique Graphique](https://perso.liris.cnrs.fr/eric.galin/L2)** 
 
   * Thème: Synthèse d'images, Modélisation 
@@ -37,6 +47,9 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
 <br>
 
 * **[Graphique 3D](https://imagecomputing.net/course/2023_2024/inf443/lab)** 
+=======
+* **[Graphique 3D](https://imagecomputing.net/damien.rohmer/teaching/inf443/practice/index.html)** 
+>>>>>>> 215b4cd728aa321083b90d46f80194bc1cf51406
 
   * Thème: Modélisation, Animation 
   * _Introduction à l'informatique graphique (Modélisation, Animation)_ 
@@ -68,6 +81,14 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
      * Master 1/2, Ecole Polytechnique, IP Paris 
      * Format: Cours, TP, 38h - C++ ([CGP](https://imagecomputing.net/cgp/index.html)) 
      * Enseignant: Damien Rohmer
+<br>
+
+* **[Géométrie numérique](https://igg.icube.unistra.fr/index.php/G%c3%a9om%c3%a9trie_num%c3%a9rique)** 
+
+  * Thème: Modélisation, Analyse de forme 
+     * Master 1, Université de Strasbourg (I3D) 
+     * Format: Cours, TP - C++ ([PMP-Lib](http://www.pmp-library.org/)) 
+     * Enseignant: Franck Hétroy-Wheeler
 <br>
 
 * **[Reconstruction de formes](https://perso.liris.cnrs.fr/julie.digne/teaching.html)** 
@@ -115,7 +136,7 @@ Rem. Le fichier README.md est généré automatiquement (ne le modifiez pas).
 
   * Thème: Modélisation 
   * _Méthodes de génération numérique de contenu pour la production de scènes virtuelles utilisées dans le contexte d'applications temps réel._ 
-     * Master 2, Université de lyon 
+     * Master 2, Université de Lyon 
      * Format: Cours, TP - C++ ([Qt](https://doc.qt.io/qt-6/qtopengl-index.html)) 
      * Enseignant: Eric Galin
 <br>

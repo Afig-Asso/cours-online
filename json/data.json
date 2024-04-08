@@ -29,6 +29,9 @@
         },
         "Qt": {
             "url": "https://doc.qt.io/qt-6/qtopengl-index.html"
+        },
+        "PMP-Lib": {
+            "url": "http://www.pmp-library.org/"
         }
     },
     "Classes": [
@@ -156,7 +159,7 @@
             "url": "https://perso.liris.cnrs.fr/eric.galin/L2",
             "Teacher": "Eric Galin",
             "Level": "Licence 2",
-            "University": "Universit\u00e9 de lyon",
+            "University": "Universit\u00e9 de Lyon",
             "Type": "Cours, TP",
             "Language": "GLSL",
             "Tool": "ShaderToy"
@@ -168,10 +171,21 @@
             "url": "https://perso.liris.cnrs.fr/eric.galin/M2/",
             "Teacher": "Eric Galin",
             "Level": "Master 2",
-            "University": "Universit\u00e9 de lyon",
+            "University": "Universit\u00e9 de Lyon",
             "Type": "Cours, TP",
             "Language": "C++",
             "Tool": "Qt"
+        },
+        {
+            "Title": "G\u00e9om\u00e9trie num\u00e9rique",
+            "Topic": "Mod\u00e9lisation, Analyse de forme",
+            "url": "https://igg.icube.unistra.fr/index.php/G%c3%a9om%c3%a9trie_num%c3%a9rique",
+            "Teacher": "Franck H\u00e9troy-Wheeler",
+            "Level": "Master 1",
+            "University": "Universit\u00e9 de Strasbourg (I3D)",
+            "Type": "Cours, TP",
+            "Language": "C++",
+            "Tool": "PMP-Lib"
         }
     ]
 }

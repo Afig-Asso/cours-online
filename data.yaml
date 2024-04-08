@@ -20,6 +20,8 @@ Tools:
     url: https://processing.org/
   Qt:
     url: https://doc.qt.io/qt-6/qtopengl-index.html
+  PMP-Lib:
+    url: http://www.pmp-library.org/
 
 
 Classes:
@@ -139,7 +141,7 @@ Classes:
     url: https://perso.liris.cnrs.fr/eric.galin/L2
     Teacher: Eric Galin
     Level: Licence 2
-    University: Université de lyon
+    University: Université de Lyon
     Type: Cours, TP
     Language: GLSL
     Tool: ShaderToy
@@ -150,7 +152,17 @@ Classes:
     url: https://perso.liris.cnrs.fr/eric.galin/M2/
     Teacher: Eric Galin
     Level: Master 2
-    University: Université de lyon
+    University: Université de Lyon
     Type: Cours, TP
     Language: C++
     Tool: Qt
+  
+  - Title: Géométrie numérique
+    Topic: Modélisation, Analyse de forme
+    url: https://igg.icube.unistra.fr/index.php/G%c3%a9om%c3%a9trie_num%c3%a9rique
+    Teacher: Franck Hétroy-Wheeler
+    Level: Master 1
+    University: Université de Strasbourg (I3D)
+    Type: Cours, TP
+    Language: C++
+    Tool: PMP-Lib
